@@ -1,0 +1,9 @@
+version: '2'
+services:
+  bot:
+    build:
+      context: .
+    ports:
+      - "5000:5000"
+    env_file:
+      .env
